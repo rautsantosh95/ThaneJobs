@@ -13,8 +13,8 @@ class JobViewSet(viewsets.ModelViewSet):
     def get_permissions(self):
         if self.action == "create":
             return [IsEmployer()]
-        elif self.action == ["update", "partial_update", "destroy"]:
-            return [IsownerorReadOnly()]
+        elif self.action in ["update", "partial_update", "destroy"]:
+            return [IsEmployer(), IsownerorReadOnly()]
         return [permissions.AllowAny()]
     
     def perform_create(self, serializer):
