@@ -16,3 +16,8 @@ Models
 1. Add Job model
 2. Add Application model
 3. Run migrations
+
+APIs
+1. Create serializers for Job and Application
+2. Add Job CRUD APIs
+3. Add Application APIs (apply to job)
