@@ -11,3 +11,8 @@ User and Auth
 2. Configure JWT authentication
 3. Add user registration API
 4. Add login API with JWT
+
+Models
+1. Add Job model
+2. Add Application model
+3. Run migrations
