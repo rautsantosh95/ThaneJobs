@@ -21,3 +21,11 @@ APIs
 1. Create serializers for Job and Application
 2. Add Job CRUD APIs
 3. Add Application APIs (apply to job)
+
+Permission
+1. Add custom permission for employer-only job creation
+2. Restrict job update/delete to owner
+
+Features
+1. Add filtering and search for jobs
+2. Add pagination
